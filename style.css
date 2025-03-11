@@ -149,10 +149,20 @@ img {
     background: transparent;
     top: 0;
 }
-
-.header.bg {
-    background: var(--dark);
+.header .container {
+    margin-top: 0rem;
+    padding: 1.5rem;
+    transition: 0.5s ease;
 }
+
+.header.bg .container {
+    background: var(--dark);
+    margin-top: 10rem;
+    padding: 1.5rem 3rem;
+    border-radius: 20rem;
+    transition: 0.5s ease;
+}
+
 .header .header_wrapper {
     display: flex;
     align-items: center;
